@@ -4,6 +4,570 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contractor X</title>
+    <link rel="icon" href="/images/logo.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <a href="./index.html" class="logo">
+        <img class="logo-img" src="./images/logo.png" alt="logo" />
+        Contractor<span>X</span></a
+      >
+      <nav>
+        <ul class="header-nav-list">
+          <li><a class="header-nav-link" href="./index.html">Home</a></li>
+          <li><a class="header-nav-link" href="#about">About</a></li>
+          <li>
+            <a class="header-nav-link" href="#why-choose-us">Why Choose Us</a>
+          </li>
+          <li>
+            <a class="header-nav-link" href="#our-project">Our project</a>
+          </li>
+          <li>
+            <a class="header-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="header-nav-link" href="#blog">Blog</a></li>
+          <li><a class="quote-link" href="#contact">Get a quote</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <h1 class="hero-title">We provide effective contracting services</h1>
+          <p class="hero-descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
+            varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor
+            porttitor quis quisque erat.
+          </p>
+          <div class="buttons-wrap">
+            <a class="quote-link" href="#contact">Get a quote</a>
+            <a href="#our-services">Our Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us" id="about">
+        <div class="container">
+          <img
+            src="./images/about-us/about-us-1x.png"
+            srcset="
+              ./images/about-us/about-us-1x.png 1x,
+              ./images/about-us/about-us-2x.png 2x
+            "
+            alt="About Us"
+          />
+          <div class="about-us-wrap">
+            <p class="section-name">/About Us</p>
+            <h2 class="title">
+              A team of reliable and experienced contractors
+            </h2>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique
+              imperdiet nisi metus, viverra nulla aliquet dui porta porttitor
+              neque lectus diam justo lobortis purus in elit, elementum
+              dignissim nullam vitae pellentesque aliquet aliquam sagittis
+              pulvinar egestas morbi suspendisse eleifend.
+            </p>
+            <ul class="about-us-list">
+              <li>
+                <h3><span>+</span>350</h3>
+                <p>Executed Projects</p>
+              </li>
+              <li>
+                <h3>12<span>Y</span></h3>
+                <p>Experience</p>
+              </li>
+              <li>
+                <h3><span>+</span>400</h3>
+                <p>Satisfied Clients</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-services" id="our-services">
+        <div class="container">
+          <div class="our-services-wrap">
+            <p class="section-name">/Our Services</p>
+            <h2 class="title">A comprehensive set of services</h2>
+          </div>
+          <div class="buttons-wrap">
+            <a class="quote-link" href="#contact">Get a quote</a>
+          </div>
+          <ul class="our-services-list">
+            <li>
+              <img
+                src="./images/our-services/our-services-1-1x.png"
+                srcset="
+                  ./images/our-services/our-services-1-1x.png 1x,
+                  ./images/our-services/our-services-1-2x.png 2x
+                "
+                alt="Our Services"
+              />
+              <h3 class="subtitle">Our Services</h3>
+              <p>
+                We provide tailored solutions to meet your needs, ensuring
+                high-quality results and client satisfaction.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/our-services/our-services-2-1x.png"
+                srcset="
+                  ./images/our-services/our-services-2-1x.png 1x,
+                  ./images/our-services/our-services-2-2x.png 2x
+                "
+                alt="Our Services"
+              />
+              <h3 class="subtitle">Project Management</h3>
+              <p>
+                From initial planning to final execution, we oversee every
+                aspect of your project to ensure seamless delivery.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/our-services/our-services-3-1x.png"
+                srcset="
+                  ./images/our-services/our-services-3-1x.png 1x,
+                  ./images/our-services/our-services-3-2x.png 2x
+                "
+                alt="Our Services"
+              />
+              <h3 class="subtitle">General Contracting</h3>
+              <p>
+                We manage construction projects with precision, ensuring
+                quality, safety, and timely completion.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/our-services/our-services-4-1x.png"
+                srcset="
+                  ./images/our-services/our-services-4-1x.png 1x,
+                  ./images/our-services/our-services-4-2x.png 2x
+                "
+                alt="Our Services"
+              />
+              <h3 class="subtitle">Interior Design</h3>
+              <p>
+                Our experts create stylish, functional spaces that reflect your
+                vision and enhance everyday living.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/our-services/our-services-5-1x.png"
+                srcset="
+                  ./images/our-services/our-services-5-1x.png 1x,
+                  ./images/our-services/our-services-5-2x.png 2x
+                "
+                alt="Our Services"
+              />
+              <h3 class="subtitle">Exterior Design</h3>
+              <p>
+                We bring aesthetic and structural harmony to outdoor spaces,
+                enhancing curb appeal and functionality.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/our-services/our-services-6-1x.png"
+                srcset="
+                  ./images/our-services/our-services-6-1x.png 1x,
+                  ./images/our-services/our-services-6-2x.png 2x
+                "
+                alt="Our Services"
+              />
+              <h3 class="subtitle">Space Planning</h3>
+              <p>
+                Our strategic approach maximizes space efficiency, improving
+                flow and usability in any environment.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="trigger">
+        <div class="container">
+          <h2 class="title">Ready to pull the trigger? Get a quote today.</h2>
+          <p class="descr">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
+            varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor
+            porttitor quis.
+          </p>
+          <div class="buttons-wrap">
+            <a class="quote-link" href="#contact">Get a quote</a>
+            <a href="#our-services">Our Services</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-choose" id="why-choose">
+        <div class="container">
+          <img
+            src="./images/why-choose/why-choose-1-1x.png"
+            srcset="
+              ./images/why-choose/why-choose-1-1x.png 1x,
+              ./images/why-choose/why-choose-1-2x.png 2x
+            "
+            alt="Why Choose Us"
+          />
+          <div class="why-choose-wrap">
+            <p class="section-name">/Why Choose Us</p>
+            <h2 class="title">An exceptional quality that can't be beaten</h2>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit tristique
+              rutrum leo quam consectetur urna egestas tincidunt facilisi neque
+              elementum quis lorem posuere dignissim scelerisque aliquam.
+            </p>
+            <ul class="why-choose-list">
+              <li>
+                <svg>
+                  <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+                <p>Over 15 years of experience</p>
+              </li>
+              <li>
+                <svg>
+                  <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+                <p>200+ successfully executed projects</p>
+              </li>
+              <li>
+                <svg>
+                  <use href="./images/sprite.svg#icon-check"></use>
+                </svg>
+                <p>Exceptional work quality</p>
+              </li>
+            </ul>
+          </div>
+          <div class="why-choose-wrap">
+            <h2 class="title">
+              We help you build on your past and prepare for the future
+            </h2>
+            <p class="descr">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit dictum nam
+              arcu ac eu orci purus amet eros, id lorem aliquet eget urna at
+              risus sit purus ac magnis blandit eu egestas imperdiet libero.
+            </p>
+            <ul class="why-wrap-list">
+              <li>
+                <h3><span>+</span>350</h3>
+                <p>Successful Projects</p>
+              </li>
+              <li>
+                <h3>100<span>%</span></h3>
+                <p>Client Satisfaction</p>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./images/why-choose/why-choose-2-1x.png"
+            srcset="
+              ./images/why-choose/why-choose-2-1x.png 1x,
+              ./images/why-choose/why-choose-2-2x.png 2x
+            "
+            alt="Why Choose Us"
+          />
+        </div>
+      </section>
+
+      <section class="our-project" id="our-project">
+        <div class="container">
+          <p class="section-name">/Past Projects</p>
+          <div class="our-project-wrap">
+            <h2 class="title">Our project results speak for themselves</h2>
+            <div class="buttons-wrap">
+              <a class="quote-link" href="#contact">Get a quote</a>
+              <a href="#our-services">Our Services</a>
+            </div>
+          </div>
+          <div class="swiper our-project-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide our-project-slide">
+                <img
+                  src="./images/our-projects/our-projects-1-1x.png"
+                  srcset="
+                    ./images/our-projects/our-projects-1-1x.png 1x,
+                    ./images/our-projects/our-projects-1-2x.png 2x
+                  "
+                  alt="Building construction in Los Angeles, CA"
+                />
+                <div class="our-project-wrapper">
+                  <h3 class="subtitle">
+                    Building construction in Los Angeles, CA
+                  </h3>
+                  <p class="descr">
+                    A modern multi-story commercial building designed for
+                    efficiency and sustainability, featuring state-of-the-art
+                    materials and energy-saving solutions.
+                  </p>
+                  <div class="our-project-line"></div>
+                  <p class="our-project-type">Construction</p>
+                </div>
+              </div>
+              <div class="swiper-slide our-project-slide">
+                <img
+                  src="./images/our-projects/our-projects-2-1x.png"
+                  srcset="
+                    ./images/our-projects/our-projects-2-1x.png 1x,
+                    ./images/our-projects/our-projects-2-2x.png 2x
+                  "
+                  alt="Kitchen remodeling in Hollywood Hills, CA"
+                />
+                <div class="our-project-wrapper">
+                  <h3 class="subtitle">
+                    Kitchen remodeling in Hollywood Hills, CA
+                  </h3>
+                  <p class="descr">
+                    A luxurious kitchen renovation with premium materials,
+                    custom cabinetry, and high-end appliances to create a
+                    stylish and functional space.
+                  </p>
+                  <div class="our-project-line"></div>
+                  <p class="our-project-type">Remodeling</p>
+                </div>
+              </div>
+              <div class="swiper-slide our-project-slide">
+                <img
+                  src="./images/our-projects/our-projects-3-1x.png"
+                  srcset="
+                    ./images/our-projects/our-projects-3-1x.png 1x,
+                    ./images/our-projects/our-projects-3-2x.png 2x
+                  "
+                  alt="Office remodeling in Hollywood Hills, CA"
+                />
+                <div class="our-project-wrapper">
+                  <h3 class="subtitle">
+                    Office remodeling in Hollywood Hills, CA
+                  </h3>
+                  <p class="descr">
+                    A complete transformation of an office space, integrating
+                    modern ergonomic furniture, advanced lighting systems, and
+                    optimized workspace layouts.
+                  </p>
+                  <div class="our-project-line"></div>
+                  <p class="our-project-type">Remodeling</p>
+                </div>
+              </div>
+              <div class="swiper-slide our-project-slide">
+                <img
+                  src="./images/our-projects/our-projects-2-1x.png"
+                  srcset="
+                    ./images/our-projects/our-projects-2-1x.png 1x,
+                    ./images/our-projects/our-projects-2-2x.png 2x
+                  "
+                  alt="Luxury home renovation in Beverly Hills, CA"
+                />
+                <div class="our-project-wrapper">
+                  <h3 class="subtitle">
+                    Luxury home renovation in Beverly Hills, CA
+                  </h3>
+                  <p class="descr">
+                    A high-end home transformation featuring custom interiors,
+                    high-quality finishes, and smart home technology for
+                    ultimate comfort.
+                  </p>
+                  <div class="our-project-line"></div>
+                  <p class="our-project-type">Renovation</p>
+                </div>
+              </div>
+              <div class="swiper-slide our-project-slide">
+                <img
+                  src="./images/our-projects/our-projects-1-1x.png"
+                  srcset="
+                    ./images/our-projects/our-projects-1-1x.png 1x,
+                    ./images/our-projects/our-projects-1-2x.png 2x
+                  "
+                  alt="Modern apartment redesign in San Francisco, CA"
+                />
+                <div class="our-project-wrapper">
+                  <h3 class="subtitle">
+                    Modern apartment redesign in San Francisco, CA
+                  </h3>
+                  <p class="descr">
+                    A sleek, contemporary apartment redesign featuring
+                    open-concept living spaces, smart storage solutions, and
+                    minimalist aesthetics.
+                  </p>
+                  <div class="our-project-line"></div>
+                  <p class="our-project-type">Interior Design</p>
+                </div>
+              </div>
+              <div class="swiper-slide our-project-slide">
+                <img
+                  src="./images/our-projects/our-projects-3-1x.png"
+                  srcset="
+                    ./images/our-projects/our-projects-3-1x.png 1x,
+                    ./images/our-projects/our-projects-3-2x.png 2x
+                  "
+                  alt="Eco-friendly home construction in Seattle, WA"
+                />
+                <div class="our-project-wrapper">
+                  <h3 class="subtitle">
+                    Eco-friendly home construction in Seattle, WA
+                  </h3>
+                  <p class="descr">
+                    A sustainable home built with environmentally friendly
+                    materials, solar energy solutions, and water-efficient
+                    systems.
+                  </p>
+                  <div class="our-project-line"></div>
+                  <p class="our-project-type">Sustainable Construction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-project-navigation">
+            <div class="project-swiper-button-prev">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 20 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.25 8.00291H16.075L11.5375 2.55291C11.3253 2.29764 11.2232 1.96854 11.2537 1.638C11.2842 1.30747 11.4447 1.00258 11.7 0.790408C11.9553 0.578235 12.2844 0.476157 12.6149 0.506632C12.9454 0.537107 13.2503 0.697637 13.4625 0.952908L19.7125 8.45291C19.7545 8.51256 19.7922 8.57523 19.825 8.64041C19.825 8.70291 19.825 8.74041 19.9125 8.80291C19.9692 8.94623 19.9988 9.0988 20 9.25291C19.9988 9.40702 19.9692 9.55958 19.9125 9.70291C19.9125 9.76541 19.9125 9.80291 19.825 9.86541C19.7922 9.93058 19.7545 9.99325 19.7125 10.0529L13.4625 17.5529C13.345 17.694 13.1978 17.8075 13.0314 17.8853C12.8651 17.963 12.6836 18.0032 12.5 18.0029C12.2079 18.0035 11.9249 17.9018 11.7 17.7154C11.5734 17.6105 11.4688 17.4816 11.3921 17.3362C11.3154 17.1907 11.2682 17.0316 11.2531 16.8679C11.238 16.7042 11.2553 16.5391 11.3041 16.3821C11.3529 16.2251 11.4322 16.0792 11.5375 15.9529L16.075 10.5029H1.25C0.91848 10.5029 0.600536 10.3712 0.366116 10.1368C0.131695 9.90237 0 9.58443 0 9.25291C0 8.92139 0.131695 8.60345 0.366116 8.36902C0.600536 8.1346 0.91848 8.00291 1.25 8.00291Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <div class="project-swiper-button-next">
+              <svg
+                width="25"
+                height="25"
+                viewBox="0 0 20 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.25 8.00291H16.075L11.5375 2.55291C11.3253 2.29764 11.2232 1.96854 11.2537 1.638C11.2842 1.30747 11.4447 1.00258 11.7 0.790408C11.9553 0.578235 12.2844 0.476157 12.6149 0.506632C12.9454 0.537107 13.2503 0.697637 13.4625 0.952908L19.7125 8.45291C19.7545 8.51256 19.7922 8.57523 19.825 8.64041C19.825 8.70291 19.825 8.74041 19.9125 8.80291C19.9692 8.94623 19.9988 9.0988 20 9.25291C19.9988 9.40702 19.9692 9.55958 19.9125 9.70291C19.9125 9.76541 19.9125 9.80291 19.825 9.86541C19.7922 9.93058 19.7545 9.99325 19.7125 10.0529L13.4625 17.5529C13.345 17.694 13.1978 17.8075 13.0314 17.8853C12.8651 17.963 12.6836 18.0032 12.5 18.0029C12.2079 18.0035 11.9249 17.9018 11.7 17.7154C11.5734 17.6105 11.4688 17.4816 11.3921 17.3362C11.3154 17.1907 11.2682 17.0316 11.2531 16.8679C11.238 16.7042 11.2553 16.5391 11.3041 16.3821C11.3529 16.2251 11.4322 16.0792 11.5375 15.9529L16.075 10.5029H1.25C0.91848 10.5029 0.600536 10.3712 0.366116 10.1368C0.131695 9.90237 0 9.58443 0 9.25291C0 8.92139 0.131695 8.60345 0.366116 8.36902C0.600536 8.1346 0.91848 8.00291 1.25 8.00291Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="title">Contact Us</h2>
+          <p class="descr">
+            Fill in the form and our consultants will reach out to you.
+          </p>
+          <div class="contact-wrap">
+            <div class="contact-wrapper">
+              <div class="contact-info">
+                <h3>Contact Details</h3>
+                <p><strong>Address:</strong> 7 Billing Ave, London, UK</p>
+                <p><strong>Phone Number:</strong> +44 20 7946 0958</p>
+                <p>
+                  <strong>Email:</strong>
+                  <a href="mailto:contact@contractorx.com"
+                    >contact@contractorx.com</a
+                  >
+                </p>
+              </div>
+              <form id="contact-form" class="contact-form">
+                <div class="input-group">
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    placeholder="Enter your name"
+                  />
+                </div>
+
+                <div class="input-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <div class="input-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" required />
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Request</button>
+              </form>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.6954057646403!2d-0.19059632322598527!3d51.48210507180757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760f87f4e1a461%3A0x21ea340d1305d151!2zNyBCaWxsaW5nIFJkLCBMb25kb24gU1cxMCA5VUosINCS0LXQu9C40LrQsCDQkdGA0LjRgtCw0L3RltGP!5e0!3m2!1suk!2spl!4v1739382747234!5m2!1suk!2spl"
+              width="100%"
+              height="550"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img class="logo-img" src="./images/logo.png" alt="logo" />
+          Contractor<span>X</span></a
+        >
+        <ul class="header-nav-list">
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+          <li><a href="cookie-policy.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <p class="footer-right">© 2025 All rights reserved</p>
+    </footer>
+
+    <div id="cookie-popup" class="cookie-popup">
+      <div class="cookie-popup-content">
+        <p>
+          We use cookies to ensure you get the best experience on our website.
+          By continuing, you agree to our use of cookies.
+        </p>
+        <button id="accept-cookie" class="cookie-btn">Accept</button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
 </html>
